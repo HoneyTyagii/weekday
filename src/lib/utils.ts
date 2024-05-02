@@ -34,6 +34,24 @@ export const filterByRoles = (jbList: any[], selectedRoles: Role[]): Job[] => {
   );
 };
 
+// Filter by employee count (multiple choice)
+// export const filterByEmployees = (
+//   jbList: Job[],
+//   selectedEmployees: EmployeeOption[]
+// ) => {
+//   // if (selectedEmployees.length === 0) return jbList;
+//   // const employeeRanges = selectedEmployees.map((employee) =>
+//   //   employee.name.split("-")
+//   // );
+//   // return jbList.filter((job) => {
+//   //   const { employeeCount } = job;
+//   //   return employeeRanges.some(
+//   //     ([min, max]) =>
+//   //       employeeCount >= parseInt(min) && employeeCount <= parseInt(max)
+//   //   );
+//   // });
+// };
+
 /**
  * filterByExperience
  *

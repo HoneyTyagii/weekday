@@ -45,6 +45,11 @@ function App() {
       allJobs = filterByBasePay(allJobs, selectedBasePays);
     }
 
+    // Filter by Employees
+    // if (selectedEmployees && selectedEmployees.length > 0) {
+    //   allJobs = filterByEmployees(allJobs, selectedEmployees);
+    // }
+
     // Filter by Experiences
     if (selectedExperiences && selectedExperiences.length > 0) {
       allJobs = filterByExperience(allJobs, selectedExperiences);
