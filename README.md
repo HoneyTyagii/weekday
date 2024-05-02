@@ -1,4 +1,4 @@
-# Weekday : Find jobs via Weekday (YC W21)
+# Weekday: Find jobs via Weekday
 
 ## Project Setup:
 
